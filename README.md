@@ -32,7 +32,7 @@ Primeiro de tudo modifique sua URLSERVER na **Auth.java**, verifique sempre o ht
 Modifique também o layout se quiser na **MainActivity.java**, lembre-se que o título está em base 64 para evitar leechs.<br></br>
 ![](https://i.imgur.com/yb78gLU.png)<br></br>
 Modifique as URLS para o canal do Youtube e tambem para a pagina de consulta.<br></br>
-![](https://i.imgur.com/5q2IDZX.png)<br></br>
+![](https://i.imgur.com/2wPZbjP.png)<br></br>
 **Para modificar o flutuante acesse:https://github.com/LGLTeam/Android-Mod-Menu**<br></br>
 Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a lib. (Eu tive problemas com isso)<br></br>
 Agora,descubra a MainActivity do seu jogo.
