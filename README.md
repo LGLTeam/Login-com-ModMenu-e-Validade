@@ -107,7 +107,7 @@ Adicone o serviço antes da Tag De Aplication.
 ```
 
    Seu resultado será algo como:<br>
-![](https://i.imgur.com/rw0hawa.png)
+![](https://i.imgur.com/7rGgu5r.png)
 
 
 Agora compile APK do jogo.
