@@ -34,9 +34,10 @@ Eu ensino melhor em um outro repositorio meu...
 
 Agora decompile **app-debug.apk**.
 
-Copie seu smali app-debug.apk descompilado para a pasta smali do jogo. O nosso exemplo é com.example.loginform2, copiaríamos a pasta `com` de` (app-debug \ smali \ com) `para o diretório descompilado do jogo` (nome do jogo) \ smali`. Se o jogo tiver multidexes, adicione seu smali às últimas classes dex se possível para evitar erros de compilação.
+Copie seu smali app-debug.apk descompilado para a pasta smali do jogo. O nosso exemplo é uk.lgl.modmenu, copiaríamos a pasta `uk`e `a` (se tiver) de` (app-debug \ smali \ uk) `para o diretório descompilado do jogo` (nome do jogo) \ smali`. Se o jogo tiver multidexes, adicione seu smali às últimas classes dex se possível para evitar erros de compilação.
 
 Na manifest do jogo `androidmanifest.xml`, fique claro que as seguintes permissoes exista: <br>`<uses-permission android:name="android.permission.INTERNET"/>`<br>`<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />`<br>
+`<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>`<br>
 `<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />`<br>
 Caso não exista adicione-as.
 
@@ -48,12 +49,20 @@ Agora localize a Activity Principal do jogo que você obteve anteriormente dentr
 
 ![](https://i.imgur.com/z1RxPjc.png)
 
-Antes do fim da tag de Aplication, Adicione sua activity `</application>`. `com.example.loginform2.MainActivity` é sua activity principal.
+Antes do fim da tag de Aplication, Adicione suas activitys `</application>`. `com.uk.lgl.MainActivity` é sua activity principal.
 
 ```xml
-<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.example.loginform2.MainActivity" android:screenOrientation="portrait">
+<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="uk.lgl.modmenu.MainActivity" android:screenOrientation="portrait">
      <intent-filter>
          <action android:name="android.intent.action.MAIN"/>
+         <category android:name="android.intent.category.LAUNCHER"/>
+     </intent-filter>
+</activity>
+```
+**Adicione tambem:**<br>
+```xml
+<activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="uk.lgl.modmeny.MainActivity2" android:screenOrientation="portrait">
+     <intent-filter>
          <category android:name="android.intent.category.LAUNCHER"/>
      </intent-filter>
 </activity>
