@@ -114,7 +114,7 @@ Agora compile APK do jogo.
 
 Isso irá iniciar a tela de login e depois o jogo.
 
-![](https://i.imgur.com/h0ZAn00.gif)
+![](https://i.imgur.com/GmPuohE.gif)
 
 # Proteção do APK
 
