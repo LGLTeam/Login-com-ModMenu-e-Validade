@@ -7,7 +7,7 @@ Obrigado a todos pelo apoio!
 
 Contatc Telegram @Hyupai
  
- **Eu ja postei uma versão parecida com esta, entretando com o flutuante separado:https://github.com/Hyupai/Login-Java-Php-Mysql-Android**
+ **Eu ja postei uma versão parecida com esta, entretando com o flutuante separado:https://github.com/Hyupai/Login-Java-Php-Mysql-Android**<br>
  **Antes que me perguntem o porque não puis a validade no flutuante é por que estava tendo alguns problemas.**
  
 # Programas necessários
