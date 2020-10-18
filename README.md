@@ -27,8 +27,37 @@ Caso nao esteja entendendo essa parte eu ensinei um pouco nesse video:https://yo
 
 # Editando seu projeto
 
-Você é livre para editar ao seu gosto tanto o layout quanto o flutunate. Só nao me venha perguntar como fazer isso!
-Eu ensino melhor em um outro repositorio meu...
+Primeiro de tudo modifique sua URLSERVER na **Auth.java**, verifique sempre o http(s).<br><br>
+![](https://i.imgur.com/5q2IDZX.png)<br></br>
+Modifique também o layout se quiser na **MainActivity.java**, lembre-se que o título está em base 64 para evitar leechs.<br></br>
+![](https://i.imgur.com/yb78gLU.png)<br></br>
+Modifique as URLS para o canal do Youtube e tambem para a pagina de consulta.<br></br>
+![](https://i.imgur.com/5q2IDZX.png)<br></br>
+**Para modificar o flutuante acesse:https://github.com/LGLTeam/Android-Mod-Menu**<br></br>
+Se você tiver usando o AIDE, verifique se o NDK está compilando corretamente a lib. (Eu tive problemas com isso)<br></br>
+Agora,descubra a MainActivity do seu jogo.
+
+Utilize o Apk Tool para vê-la:
+
+![](https://i.imgur.com/JQdPjyZ.png)
+
+Nesse caso está como `com.unity3d.player.UnityPlayerActivity`
+
+
+No android studio ou AIDE modifique a `public String sGameActivity` se necessário!
+
+![](https://i.imgur.com/KBBek2N.png)
+
+Construa seu apk:
+
+**Build** -> **Build Bundle(s)/APK(s)** -> **Build APK(s)**
+
+Se tudo correr bem você será notificado.
+
+![](https://i.imgur.com/WpSKV1L.png)
+
+Clique em **locate** para mostrar o local do **build.apk**. 
+![](https://i.imgur.com/wBTPSLi.png) 
 
 # Implementando seu projeto no jogo
 
