@@ -71,11 +71,13 @@ Antes do fim da tag de Aplication, Adicione suas activitys `</application>`. `co
 
 Adicone o serviço antes da Tag De Aplication.
 
+```
 <service android:name="uk.lgl.modmenu.FloatingModMenuService"
         android:enabled="true"
-        android:exported="false"/><br></br>
-        
-     Seu resultado sera algo como:<br>
+        android:exported="false"/>
+```
+
+   Seu resultado será algo como:<br>
 ![](https://i.imgur.com/rw0hawa.png)
 
 
